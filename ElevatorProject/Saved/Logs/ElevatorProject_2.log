@@ -1,0 +1,1218 @@
+﻿[2015.10.22-23.45.09:741][  0]Log file open, 10/22/15 18:45:09
+[2015.10.22-23.45.09:741][  0]LogInit:Display: Running engine for game: ElevatorProject
+[2015.10.22-23.45.09:741][  0]LogInit:Display: RandInit(1134697231) SRandInit(1134697232).
+[2015.10.22-23.45.09:741][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.22-23.45.09:741][  0]LogStats: Stats thread started
+[2015.10.22-23.45.09:741][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.10.22-23.45.09:742][  0]LogInit: API Version: 2579680
+[2015.10.22-23.45.09:742][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.10.22-23.45.09:742][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.22-23.45.09:742][  0]LogInit: Build Configuration: Development
+[2015.10.22-23.45.09:742][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.10.22-23.45.09:742][  0]LogInit: Command line:  
+[2015.10.22-23.45.09:742][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.10.22-23.45.09:742][  0]LogInit: Rocket: 1
+[2015.10.22-23.45.09:756][  0]LogInit: Using libcurl 7.41.0
+[2015.10.22-23.45.09:756][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.22-23.45.09:756][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.22-23.45.09:756][  0]LogInit:  - other features:
+[2015.10.22-23.45.09:756][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.22-23.45.09:756][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.22-23.45.09:757][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.22-23.45.09:757][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.22-23.45.09:757][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.22-23.45.09:757][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.22-23.45.09:757][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.22-23.45.09:757][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.22-23.45.09:757][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.22-23.45.09:757][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.22-23.45.09:770][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.10.22-23.45.09:786][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.22-23.45.09:796][  0]LogInit: Object subsystem initialized
+[2015.10.22-23.45.09:797][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.10.22-23.45.09:797][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.22-23.45.09:797][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.10.22-23.45.09:797][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.22-23.45.09:797][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.10.22-23.45.09:797][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.22-23.45.09:798][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.22-23.45.09:798][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.22-23.45.09:808][  0]LogInit: Computer: SC10111
+[2015.10.22-23.45.09:808][  0]LogInit: User: WIN7
+[2015.10.22-23.45.09:808][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.22-23.45.09:808][  0]LogInit: High frequency timer resolution =2.727851 MHz
+[2015.10.22-23.45.09:808][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.10.22-23.45.09:808][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.22-23.45.09:808][  0]LogMemory: Process Physical Memory: 49.39 MB used, 49.39 MB peak
+[2015.10.22-23.45.09:808][  0]LogMemory: Process Virtual Memory: 23.45 MB used, 23.45 MB peak
+[2015.10.22-23.45.09:808][  0]LogMemory: Physical Memory: 4879.25 MB used, 8115.59 MB total
+[2015.10.22-23.45.09:808][  0]LogMemory: Virtual Memory: 283.25 MB used, 8388608.00 MB total
+[2015.10.22-23.45.09:847][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.10.22-23.45.10:099][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.10.22-23.45.10:696][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
+[2015.10.22-23.45.10:696][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.10.22-23.45.10:696][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.22-23.45.10:701][  0]LogD3D11RHI: InitD3DDevice
+[2015.10.22-23.45.10:701][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.22-23.45.10:701][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.22-23.45.10:710][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.22-23.45.10:726][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.22-23.45.12:105][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.10.22-23.45.12:123][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.22-23.45.12:140][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.22-23.45.12:163][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.22-23.45.12:184][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.22-23.45.12:199][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.22-23.45.12:215][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.22-23.45.12:235][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.22-23.45.12:256][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.22-23.45.12:273][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.22-23.45.12:291][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.22-23.45.12:310][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.22-23.45.12:421][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.22-23.45.12:459][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.22-23.45.12:519][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.22-23.45.12:571][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.22-23.45.12:571][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.22-23.45.13:312][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.22-23.45.13:384][  0]LogDerivedDataCache: Loaded boot cache 0.07s 53MB C:/Users/win7/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.10.22-23.45.13:384][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/win7/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.10.22-23.45.13:384][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.22-23.45.13:384][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.22-23.45.13:384][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.22-23.45.13:384][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.22-23.45.13:652][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.22-23.45.13:696][  0]LogDerivedDataCache: Using Local data cache path C:/Users/win7/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.22-23.45.14:084][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.22-23.45.14:126][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.10.22-23.45.14:126][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.10.22-23.45.14:193][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.22-23.45.14:193][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.22-23.45.15:050][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.22-23.45.16:814][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.22-23.45.17:464][  0]SourceControl: Info Source control is disabled
+[2015.10.22-23.45.17:464][  0]SourceControl: Info Source control is disabled
+[2015.10.22-23.45.17:477][  0]SourceControl: Info Source control is disabled
+[2015.10.22-23.45.17:488][  0]SourceControl: Info Source control is disabled
+[2015.10.22-23.45.18:020][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.10.22-23.45.18:020][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.10.22-23.45.18:107][  0]LogEngine: Initializing Engine...
+[2015.10.22-23.45.18:109][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.10.22-23.45.18:111][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.10.22-23.45.18:316][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.22-23.45.18:320][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.22-23.45.18:347][  0]LogInit: FAudioDevice initialized.
+[2015.10.22-23.45.18:430][  0]LogDerivedDataCache: Saved boot cache 0.08s 53MB C:/Users/win7/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.10.22-23.45.18:441][  0]LogInit: Texture streaming: Disabled
+[2015.10.22-23.45.18:479][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.22-23.45.18:479][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.10.22-23.45.18:480][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 7fdb51254301b8cae6cfd884479df5d5|b371cfd5f1e14847ad746033d83e9e07|a27eaddf-4ef5-4c2d-af76-b70901883597
+[2015.10.22-23.45.18:480][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.22-23.45.18:511][  0]LogInit: Transaction tracking system initialized
+[2015.10.22-23.45.18:699][  0]BlueprintLog: New page: Editor Load
+[2015.10.22-23.45.18:740][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2015.10.22-23.45.18:740][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.10.22-23.45.19:629][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.10.22-23.45.19:630][  0]LogConsoleResponse:Display: 
+[2015.10.22-23.45.19:845][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.22-23.45.20:083][  0]SourceControl: Info Source control is disabled
+[2015.10.22-23.45.20:083][  0]Cmd: MAP LOAD FILE="../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Maps/ElevatorLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.22-23.45.20:084][  0]LightingResults: New page: Lighting Build
+[2015.10.22-23.45.20:099][  0]MapCheck: New page: Map Check
+[2015.10.22-23.45.20:099][  0]LightingResults: New page: Lighting Build
+[2015.10.22-23.45.20:109][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000142AEF20
+[2015.10.22-23.45.20:483][  0]LogBlueprint:Warning: [compiler CallButton] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.22-23.45.20:485][  0]LogBlueprint:Warning: [compiler CallButton] Warning [0012.96] Compile of CallButton successful, but with 1 Warning(s) [in 20 ms]
+[2015.10.22-23.45.20:486][  0]LogBlueprint:Warning: [compiler CallButton] Warning [0012.96] Compile of CallButton successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.22-23.45.20:486][  0]LogBlueprint:Warning: [compiler CallButton] Warning [0012.96] Compile of CallButton successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.22-23.45.20:511][  0]LogBlueprint:Warning: [compiler CallButton] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.22-23.45.20:513][  0]LogBlueprint:Warning: [compiler CallButton] Warning [0012.99] Compile of CallButton successful, but with 1 Warning(s) [in 21 ms]
+[2015.10.22-23.45.20:513][  0]LogBlueprint:Warning: [compiler CallButton] Warning [0012.99] Compile of CallButton successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.22-23.45.20:683][  0]LogBlueprint:Warning: [compiler Menu] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.22-23.45.20:686][  0]LogBlueprint:Warning: [compiler Menu] Warning [0013.16] Compile of Menu successful, but with 1 Warning(s) [in 24 ms]
+[2015.10.22-23.45.20:686][  0]LogBlueprint:Warning: [compiler Menu] Warning [0013.16] Compile of Menu successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.22-23.45.20:687][  0]LogBlueprint:Warning: [compiler Menu] Warning [0013.16] Compile of Menu successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.22-23.45.20:717][  0]LogBlueprint:Warning: [compiler Menu] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.22-23.45.20:721][  0]LogBlueprint:Warning: [compiler Menu] Warning [0013.20] Compile of Menu successful, but with 1 Warning(s) [in 24 ms]
+[2015.10.22-23.45.20:721][  0]LogBlueprint:Warning: [compiler Menu] Warning [0013.20] Compile of Menu successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.22-23.45.21:045][  0]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.22-23.45.21:051][  0]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0013.53] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 52 ms]
+[2015.10.22-23.45.21:051][  0]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0013.53] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.22-23.45.21:052][  0]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0013.53] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.22-23.45.21:120][  0]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.22-23.45.21:127][  0]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0013.60] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 53 ms]
+[2015.10.22-23.45.21:127][  0]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0013.60] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.22-23.45.21:448][  0]LogMaterial: Missing cached shader map for material Metal_BrushedCopper, compiling. 
+[2015.10.22-23.45.21:577][  0]LogMaterial: Missing cached shader map for material Metal_CyberCube, compiling. 
+[2015.10.22-23.45.21:630][  0]LogMaterial: Missing cached shader map for material Metal_DiamondPlateSciFi, compiling. 
+[2015.10.22-23.45.21:656][  0]LogMaterial: Missing cached shader map for material Metal_Gold, compiling. 
+[2015.10.22-23.45.22:650][  0]LogMaterial: Missing cached shader map for material Metal_ReinforcedGridWall, compiling. 
+[2015.10.22-23.45.22:966][  0]LogTexture:Display: Building textures: Metal_sciFiCurveyWall_2k_g (AutoDXT)
+[2015.10.22-23.45.27:718][  0]LogTexture:Display: Building textures: Metal_sciFiCurveyWall_2k_mask (AutoDXT)
+[2015.10.22-23.45.28:832][  0]LogMaterial: Missing cached shader map for material Metal_sciFiCurveyWall, compiling. 
+[2015.10.22-23.45.29:236][  0]LogTexture:Display: Building textures: Rock_JaggedCaveWall_2k_alb (AutoDXT)
+[2015.10.22-23.45.37:667][  0]LogTexture:Display: Building textures: Rock_JaggedCaveWall_2k_n (BC5)
+[2015.10.22-23.45.38:646][  0]LogTexture:Display: Building textures: Rock_JaggedCaveWall_2k_g (AutoDXT)
+[2015.10.22-23.45.40:864][  0]LogTexture:Display: Building textures: Rock_JaggedCaveWall_2k_h (AutoDXT)
+[2015.10.22-23.45.41:856][  0]LogMaterial: Missing cached shader map for material Rock_JaggedCaveWall, compiling. 
+[2015.10.22-23.45.42:026][  0]LogAIModule: Creating AISystem for world ElevatorLevel
+[2015.10.22-23.45.44:815][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.22-23.45.44:835][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.22-23.45.45:326][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 491.066ms to complete.
+[2015.10.22-23.45.45:326][  0]LogFileHelpers: Loading map 'ElevatorLevel' took 25.241
+[2015.10.22-23.45.56:912][  0]LogCollectionManager: Loaded 0 collections in 0.003104 seconds
+[2015.10.22-23.45.56:938][  0]LogContentBrowser: Native class hierarchy populated in 0.0251 seconds. Added 1792 classes and 301 folders.
+[2015.10.22-23.46.00:027][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.10.22-23.46.03:003][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.10.22-23.46.03:079][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.10.22-23.46.07:261][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.22-23.46.07:314][  0]LogD3D11RHI: InitD3DDevice
+[2015.10.22-23.46.07:383][  0]LogD3D11RHI: InitD3DDevice
+[2015.10.22-23.46.07:485][  0]LogLoad: Full Startup: 59.96 seconds (BP compile: 0.64 seconds)
+[2015.10.22-23.46.08:219][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.22-23.46.08:327][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.22-23.46.09:918][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.10.22-23.46.11:416][  9]LogAssetRegistry: Asset discovery search completed in 52.6834 seconds
+[2015.10.22-23.46.16:858][604]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2015.10.22-23.46.16:858][604]LogSynthBenchmark:Display: ===============
+[2015.10.22-23.46.16:858][604]LogSynthBenchmark:Display: Main Processor:
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display:          ... 0.025062 s/Run 'RayIntersect'
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display:          ... 0.029279 s/Run 'Fractal'
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display: 
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 8
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display:   CPU Perf Index 0: 102.2
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display:   CPU Perf Index 1: 97.7
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display:  
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display: Graphics:
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce GTX 960'
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display:   Vendor Id: 0x10de
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display:   GPU Memory: 1970/0/2049 MB
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display:   CPUIndex: 102.2
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display:   GPUIndex: -1.$
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display: 
+[2015.10.22-23.46.16:913][604]LogSynthBenchmark:Display:          ... Total Time: 0.055111 sec
+[2015.10.22-23.46.16:916][604]LogWindows:Warning: FWindowsPlatformSurvey::TickSurveyHardware() WinSAT assessment unavailable. Unable to examine some hardware metrics. Run the Windows Experience Index Assessment.
+[2015.10.22-23.46.27:612][873]LogD3D11RHI: InitD3DDevice
+[2015.10.22-23.46.37:586][ 62]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.22-23.46.37:590][ 62]LogPlayLevel: [PIE] Compiling ElevatorLevel before PIE...
+[2015.10.22-23.46.37:698][ 62]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.22-23.46.37:709][ 62]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0090.18] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 85 ms]
+[2015.10.22-23.46.37:718][ 62]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0090.19] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.22-23.46.37:718][ 62]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0090.19] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.22-23.46.37:846][ 62]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0090.32] Compile of ElevatorLevel successful, but with 4 Warning(s) [in 127 ms]
+[2015.10.22-23.46.37:846][ 62]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0090.32] Compile of ElevatorLevel successful, but with 5 Warning(s) [in 0 ms]
+[2015.10.22-23.46.37:847][ 62]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0090.32] Compile of ElevatorLevel successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.22-23.46.38:092][ 62]LogPlayLevel: PIE:  Blueprint regeneration took 505 ms (1 blueprints)
+[2015.10.22-23.46.38:182][ 62]PIE: New page: PIE session: ElevatorLevel (Oct 22, 2015, 1:46:38 PM)
+[2015.10.22-23.46.38:183][ 62]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel
+[2015.10.22-23.46.38:265][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.081195s)
+[2015.10.22-23.46.38:272][ 62]LogAIModule: Creating AISystem for world ElevatorLevel
+[2015.10.22-23.46.38:273][ 62]LogPlayLevel: PIE: World Init took: (0.001387s)
+[2015.10.22-23.46.38:274][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/ElevatorLevel.ElevatorLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel (0.090351s)
+[2015.10.22-23.46.38:300][ 62]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.22-23.46.38:333][ 62]LogInit: FAudioDevice initialized.
+[2015.10.22-23.46.38:612][ 62]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.22-23.46.38:657][ 62]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel up for play (max tick rate 0) at 2015.10.22-18.46.38
+[2015.10.22-23.46.38:657][ 62]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.46.38:666][ 62]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.46.38:688][ 62]LogWorld: Bringing up level for play took: 0.047083
+[2015.10.22-23.46.38:771][ 62]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel 1.495
+[2015.10.22-23.46.46:774][  2]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.22-23.46.53:746][822]LogBlueprintUserMessages: Press E
+[2015.10.22-23.47.00:435][620]LogBlueprintUserMessages: Press E
+[2015.10.22-23.47.06:258][314]LogBlueprintUserMessages: Floor 3 Button Pressed
+[2015.10.22-23.47.31:841][370]LogBlueprintUserMessages: Floor 2 Button Pressed
+[2015.10.22-23.47.52:234][790]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F3E6200
+[2015.10.22-23.47.55:519][164]LogD3D11RHI: InitD3DDevice
+[2015.10.22-23.47.55:643][164]LogD3D11RHI: InitD3DDevice
+[2015.10.22-23.47.55:995][164]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.22-23.47.56:082][164]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.22-23.48.35:131][788]LogD3D11RHI: InitD3DDevice
+[2015.10.22-23.48.35:765][829]LogD3D11RHI: InitD3DDevice
+[2015.10.22-23.48.36:293][864]LogD3D11RHI: InitD3DDevice
+[2015.10.22-23.57.15:071][624]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.22-23.57.15:100][624]LogPlayLevel: [PIE] Compiling ElevatorLevel before PIE...
+[2015.10.22-23.57.15:208][624]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.22-23.57.15:216][624]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0727.65] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 73 ms]
+[2015.10.22-23.57.15:216][624]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0727.65] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.22-23.57.15:216][624]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0727.65] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.22-23.57.15:257][624]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0727.69] Compile of ElevatorLevel successful, but with 4 Warning(s) [in 40 ms]
+[2015.10.22-23.57.15:274][624]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0727.71] Compile of ElevatorLevel successful, but with 5 Warning(s) [in 16 ms]
+[2015.10.22-23.57.15:274][624]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0727.71] Compile of ElevatorLevel successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.22-23.57.15:369][624]LogPlayLevel: PIE:  Blueprint regeneration took 297 ms (1 blueprints)
+[2015.10.22-23.57.15:369][624]PIE: New page: PIE session: ElevatorLevel (Oct 22, 2015, 1:57:15 PM)
+[2015.10.22-23.57.15:370][624]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel
+[2015.10.22-23.57.15:415][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044482s)
+[2015.10.22-23.57.15:415][624]LogAIModule: Creating AISystem for world ElevatorLevel
+[2015.10.22-23.57.15:416][624]LogPlayLevel: PIE: World Init took: (0.001404s)
+[2015.10.22-23.57.15:416][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/ElevatorLevel.ElevatorLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel (0.046183s)
+[2015.10.22-23.57.15:464][624]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.22-23.57.15:477][624]LogInit: FAudioDevice initialized.
+[2015.10.22-23.57.15:518][624]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.22-23.57.15:539][624]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel up for play (max tick rate 0) at 2015.10.22-18.57.15
+[2015.10.22-23.57.15:539][624]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.57.15:540][624]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.57.15:542][624]LogWorld: Bringing up level for play took: 0.019363
+[2015.10.22-23.57.15:549][624]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel 0.233
+[2015.10.22-23.57.22:276][801]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.22-23.57.26:536][914]LogBlueprintUserMessages: Press E
+[2015.10.22-23.57.28:756][973]LogBlueprintUserMessages: Press E
+[2015.10.22-23.57.33:349][ 94]LogBlueprintUserMessages: Floor 3 Button Pressed
+[2015.10.22-23.57.42:343][336]LogBlueprintUserMessages: Floor 2 Button Pressed
+[2015.10.22-23.57.48:369][499]LogBlueprintUserMessages: Floor 1 Button Pressed
+[2015.10.22-23.57.50:257][547]LogBlueprintUserMessages: Press E
+[2015.10.22-23.57.51:004][565]LogBlueprintUserMessages: Press E
+[2015.10.22-23.58.04:345][913]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004FBD4B80
+[2015.10.22-23.58.26:611][511]LogD3D11RHI: InitD3DDevice
+[2015.10.22-23.58.35:614][761]LogD3D11RHI: InitD3DDevice
+[2015.10.22-23.58.35:986][761]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.22-23.58.35:993][761]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0808.42] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 51 ms]
+[2015.10.22-23.58.35:993][761]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0808.42] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.22-23.58.35:993][761]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0808.42] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.22-23.58.36:033][761]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0808.46] Compile of ElevatorLevel successful, but with 4 Warning(s) [in 39 ms]
+[2015.10.22-23.58.36:048][761]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0808.48] Compile of ElevatorLevel successful, but with 5 Warning(s) [in 14 ms]
+[2015.10.22-23.58.36:048][761]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0808.48] Compile of ElevatorLevel successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.22-23.58.36:326][761]LogSavePackage: Save=427.405670ms
+[2015.10.22-23.58.36:326][761]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/ElevatorLevel_Auto1F469DB8D43F1C6AF64B37BB52F816EBD.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/Autosaves/Game/FirstPersonBP/Maps/ElevatorLevel_Auto1.umap'
+[2015.10.22-23.58.36:330][761]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/ElevatorLevel' took 0.520
+[2015.10.22-23.58.36:330][761]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.520
+[2015.10.23-00.00.46:463][299]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.00.46:631][299]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.00.46:637][299]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0939.06] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 64 ms]
+[2015.10.23-00.00.46:638][299]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0939.06] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.23-00.00.46:638][299]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0939.06] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.23-00.00.46:680][299]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0939.10] Compile of ElevatorLevel successful, but with 4 Warning(s) [in 41 ms]
+[2015.10.23-00.00.46:692][299]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0939.11] Compile of ElevatorLevel successful, but with 5 Warning(s) [in 12 ms]
+[2015.10.23-00.00.46:692][299]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [0939.11] Compile of ElevatorLevel successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.23-00.00.46:980][299]LogSavePackage: Save=432.771790ms
+[2015.10.23-00.00.46:980][299]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/ElevatorLevel61AF1BF44D0C3253C5D28C96B7855AD6.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Maps/ElevatorLevel.umap'
+[2015.10.23-00.01.00:100][670]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.01.39:284][472]BlueprintLog: New page: Compile CallButton
+[2015.10.23-00.01.39:316][472]LogBlueprint:Warning: [compiler CallButton] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.01.39:462][472]LogBlueprint:Warning: [compiler CallButton] Warning [0991.88] Compile of CallButton successful, but with 1 Warning(s) [in 178 ms]
+[2015.10.23-00.01.39:462][472]BlueprintEditorCompileResults:Warning: Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.01.39:462][472]BlueprintEditorCompileResults:Warning: Warning [0991.88] Compile of CallButton successful, but with 1 Warning(s) [in 178 ms]
+[2015.10.23-00.01.39:884][490]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.01.39:954][490]LogSavePackage: Save=21.877661ms
+[2015.10.23-00.01.39:954][490]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/CallButtonD34ED8644D219F5BEB7A94B996A643CF.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/CallButton.uasset'
+[2015.10.23-00.01.39:954][490]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/CallButton.uasset', retrying in .5s...
+[2015.10.23-00.01.40:454][490]LogFileManager:Error: Error deleting file '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/CallButton.uasset'.
+[2015.10.23-00.01.40:454][490]LogSavePackage:Error: Error saving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/CallButton.uasset'
+[2015.10.23-00.01.40:526][490]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.01.48:295][490]LogSavePackage: Save=22.121809ms
+[2015.10.23-00.01.48:295][490]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/CallButton0664845F4A05F8BAD5E9C2BD920A7105.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/CallButton.uasset'
+[2015.10.23-00.01.48:296][490]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/CallButton.uasset', retrying in .5s...
+[2015.10.23-00.01.48:796][490]LogFileManager:Error: Error deleting file '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/CallButton.uasset'.
+[2015.10.23-00.01.48:796][490]LogSavePackage:Error: Error saving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/CallButton.uasset'
+[2015.10.23-00.01.48:821][490]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.01.51:666][490]EditorErrors: New page: Save Output
+[2015.10.23-00.01.51:667][490]EditorErrors:Warning: Warning Error saving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/CallButton.uasset'
+[2015.10.23-00.01.51:667][490]EditorErrors:Warning: Warning Error saving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/CallButton.uasset'
+[2015.10.23-00.01.51:673][490]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.01.56:310][690]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.01.56:451][690]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.01.56:462][690]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1008.88] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 60 ms]
+[2015.10.23-00.01.56:462][690]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1008.88] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.23-00.01.56:463][690]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1008.88] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.23-00.01.56:508][690]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1008.92] Compile of ElevatorLevel successful, but with 4 Warning(s) [in 45 ms]
+[2015.10.23-00.01.56:523][690]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1008.94] Compile of ElevatorLevel successful, but with 5 Warning(s) [in 15 ms]
+[2015.10.23-00.01.56:523][690]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1008.94] Compile of ElevatorLevel successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.23-00.01.56:835][690]LogSavePackage: Save=460.574280ms
+[2015.10.23-00.01.56:835][690]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/ElevatorLevel35EDD20D46E58F90F56C879B95C5E551.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Maps/ElevatorLevel.umap'
+[2015.10.23-00.01.58:403][750]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.23-00.01.58:427][750]LogPlayLevel: [PIE] Compiling ElevatorLevel before PIE...
+[2015.10.23-00.01.58:500][750]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.01.58:514][750]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1010.93] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 62 ms]
+[2015.10.23-00.01.58:515][750]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1010.93] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.23-00.01.58:515][750]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1010.93] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.23-00.01.58:570][750]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1010.98] Compile of ElevatorLevel successful, but with 4 Warning(s) [in 54 ms]
+[2015.10.23-00.01.58:586][750]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1011.00] Compile of ElevatorLevel successful, but with 5 Warning(s) [in 15 ms]
+[2015.10.23-00.01.58:586][750]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1011.00] Compile of ElevatorLevel successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.23-00.01.58:643][750]LogPlayLevel: PIE:  Blueprint regeneration took 240 ms (1 blueprints)
+[2015.10.23-00.01.58:643][750]PIE: New page: PIE session: ElevatorLevel (Oct 22, 2015, 2:01:58 PM)
+[2015.10.23-00.01.58:644][750]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel
+[2015.10.23-00.01.58:695][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050994s)
+[2015.10.23-00.01.58:696][750]LogAIModule: Creating AISystem for world ElevatorLevel
+[2015.10.23-00.01.58:698][750]LogPlayLevel: PIE: World Init took: (0.002757s)
+[2015.10.23-00.01.58:698][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/ElevatorLevel.ElevatorLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel (0.054141s)
+[2015.10.23-00.01.58:739][750]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.23-00.01.58:749][750]LogInit: FAudioDevice initialized.
+[2015.10.23-00.01.58:796][750]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.23-00.01.58:819][750]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel up for play (max tick rate 0) at 2015.10.22-19.01.58
+[2015.10.23-00.01.58:819][750]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.01.58:821][750]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.01.58:822][750]LogWorld: Bringing up level for play took: 0.020673
+[2015.10.23-00.01.58:829][750]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel -0.503
+[2015.10.23-00.02.04:469][ 20]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.02.06:351][104]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000067EF0180
+[2015.10.23-00.02.25:935][974]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.02.32:417][337]LogRenderer: Reallocating scene render targets to support 1208x944 (Frame:42375).
+[2015.10.23-00.02.37:432][652]BlueprintLog: New page: Compile 3DWidget_Call
+[2015.10.23-00.02.37:633][652]BlueprintEditorCompileResults: Info [1050.05] Compile of 3DWidget_Call successful! [in 201 ms]
+[2015.10.23-00.02.38:356][690]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.02.38:419][690]LogSavePackage: Save=29.197342ms
+[2015.10.23-00.02.38:419][690]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/3DWidget_Call2A7F6F644EF7E9D342ECDCACA21D0018.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/3DWidget_Call.uasset'
+[2015.10.23-00.02.38:419][690]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/3DWidget_Call.uasset', retrying in .5s...
+[2015.10.23-00.02.38:919][690]LogFileManager:Error: Error deleting file '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/3DWidget_Call.uasset'.
+[2015.10.23-00.02.38:919][690]LogSavePackage:Error: Error saving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/3DWidget_Call.uasset'
+[2015.10.23-00.02.38:945][690]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.02.40:999][690]LogSavePackage: Save=28.251909ms
+[2015.10.23-00.02.40:999][690]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/3DWidget_CallAFECE2BE4EE7CECFFF1AA18EF5E42FFC.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/3DWidget_Call.uasset'
+[2015.10.23-00.02.40:999][690]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/3DWidget_Call.uasset', retrying in .5s...
+[2015.10.23-00.02.41:499][690]LogFileManager:Error: Error deleting file '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/3DWidget_Call.uasset'.
+[2015.10.23-00.02.41:499][690]LogSavePackage:Error: Error saving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/3DWidget_Call.uasset'
+[2015.10.23-00.02.41:524][690]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.02.47:445][690]EditorErrors: New page: Save Output
+[2015.10.23-00.02.47:446][690]EditorErrors:Warning: Warning Error saving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/3DWidget_Call.uasset'
+[2015.10.23-00.02.47:446][690]EditorErrors:Warning: Warning Error saving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/3DWidget_Call.uasset'
+[2015.10.23-00.02.47:452][690]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.03.01:686][401]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.03.01:735][401]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005160E660
+[2015.10.23-00.03.01:736][401]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005160C680
+[2015.10.23-00.03.01:740][401]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C392020
+[2015.10.23-00.03.01:869][401]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.03.01:882][401]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1074.29] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 92 ms]
+[2015.10.23-00.03.01:883][401]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1074.29] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.23-00.03.01:883][401]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1074.29] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.23-00.03.01:944][401]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1074.36] Compile of ElevatorLevel successful, but with 4 Warning(s) [in 60 ms]
+[2015.10.23-00.03.01:961][401]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1074.37] Compile of ElevatorLevel successful, but with 5 Warning(s) [in 16 ms]
+[2015.10.23-00.03.01:961][401]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1074.37] Compile of ElevatorLevel successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.23-00.03.02:334][401]LogSavePackage: Save=573.662903ms
+[2015.10.23-00.03.02:334][401]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/ElevatorLevel6005908F4D65094BDB72B5A14DE35845.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Maps/ElevatorLevel.umap'
+[2015.10.23-00.03.03:753][442]MapCheck: New page: Map Check
+[2015.10.23-00.03.03:794][442]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.03.03:819][442]Cmd: MAP REBUILD ALLVISIBLE
+[2015.10.23-00.03.03:819][442]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.23-00.03.03:933][442]LightingResults: New page: Lighting Build - Oct 22, 2015, 2:03:03 PM
+[2015.10.23-00.03.10:293][442]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.10.23-00.03.10:293][442]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.10.23-00.03.10:293][442]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.10.23-00.03.10:293][442]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.10.23-00.03.10:293][442]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.10.23-00.03.10:293][442]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.10.23-00.03.10:856][442]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.03.10:879][442]LogEditorBuildUtils: Build time 0:00:07
+[2015.10.23-00.03.10:898][442]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.03.10:910][442]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Metal_Gold, compiling. 
+[2015.10.23-00.03.10:920][442]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Metal_Gold, compiling. 
+[2015.10.23-00.03.10:989][443]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Metal_sciFiCurveyWall, compiling. 
+[2015.10.23-00.03.10:993][443]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Metal_sciFiCurveyWall, compiling. 
+[2015.10.23-00.03.11:000][443]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2015.10.23-00.03.11:007][443]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2015.10.23-00.03.11:055][444]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Metal_CyberCube, compiling. 
+[2015.10.23-00.03.11:060][444]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Metal_CyberCube, compiling. 
+[2015.10.23-00.03.11:105][445]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Metal_ReinforcedGridWall, compiling. 
+[2015.10.23-00.03.11:109][445]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Metal_ReinforcedGridWall, compiling. 
+[2015.10.23-00.03.11:114][445]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Metal_DiamondPlateSciFi, compiling. 
+[2015.10.23-00.03.11:119][445]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Metal_DiamondPlateSciFi, compiling. 
+[2015.10.23-00.03.11:175][446]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rock_JaggedCaveWall, compiling. 
+[2015.10.23-00.03.11:181][446]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rock_JaggedCaveWall, compiling. 
+[2015.10.23-00.03.17:200][513]Job is a success!
+[2015.10.23-00.03.17:245][514]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.03.17:256][514]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.03.17:366][514]LightingResults:Error: Error ElevatorLight Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2015.10.23-00.03.17:402][514]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.10.23-00.03.17:465][514]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.10.23-00.03.17:482][514]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.10.23-00.03.17:517][514]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.10.23-00.03.17:595][514]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.10.23-00.03.17:615][514]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.10.23-00.03.17:926][514]Lightmass on SC10111: 2.23 sec total, 193 ms importing, 5 ms setup, 204 ms photons, 1.78 sec processing, 0 ms extra exporting [55/55 mappings]. Threads: 7.11 sec total, 3.70 sec processing.
+[2015.10.23-00.03.17:926][514]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.03.18:020][514]LogStaticLightingSystem: Illumination: 14.0 sec (253 ms encoding lightmaps)
+[2015.10.23-00.03.18:020][514]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.1 MB streaming, 0.3 MB non-streaming), 4 textures
+[2015.10.23-00.03.18:020][514]LogStaticLightingSystem: Shadowmap texture memory: 0.8 MB (0.2 MB streaming, 0.7 MB non-streaming), 2 textures
+[2015.10.23-00.03.18:343][515]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.10.23-00.03.18:343][515]MapCheck: New page: ElevatorLevel - Oct 22, 2015, 2:03:18 PM
+[2015.10.23-00.03.18:498][515]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 154.235ms to complete.
+[2015.10.23-00.11.46:896][392]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.11.57:005][784]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.12.02:110][996]BlueprintLog: New page: Compile ElevatorLevel
+[2015.10.23-00.12.02:196][996]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.12.02:309][996]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1614.69] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 198 ms]
+[2015.10.23-00.12.02:309][996]BlueprintEditorCompileResults:Warning: Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.12.02:309][996]BlueprintEditorCompileResults:Warning: Warning [1614.69] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 198 ms]
+[2015.10.23-00.12.04:365][ 85]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.23-00.12.04:388][ 85]LogPlayLevel: [PIE] Compiling ElevatorLevel before PIE...
+[2015.10.23-00.12.04:459][ 85]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.12.04:465][ 85]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1616.84] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 52 ms]
+[2015.10.23-00.12.04:466][ 85]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1616.84] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.23-00.12.04:466][ 85]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1616.84] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.23-00.12.04:512][ 85]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1616.89] Compile of ElevatorLevel successful, but with 4 Warning(s) [in 45 ms]
+[2015.10.23-00.12.04:525][ 85]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1616.90] Compile of ElevatorLevel successful, but with 5 Warning(s) [in 12 ms]
+[2015.10.23-00.12.04:525][ 85]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1616.90] Compile of ElevatorLevel successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.23-00.12.04:569][ 85]LogPlayLevel: PIE:  Blueprint regeneration took 204 ms (1 blueprints)
+[2015.10.23-00.12.04:569][ 85]PIE: New page: PIE session: ElevatorLevel (Oct 22, 2015, 2:12:04 PM)
+[2015.10.23-00.12.04:570][ 85]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel
+[2015.10.23-00.12.04:609][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039346s)
+[2015.10.23-00.12.04:610][ 85]LogAIModule: Creating AISystem for world ElevatorLevel
+[2015.10.23-00.12.04:611][ 85]LogPlayLevel: PIE: World Init took: (0.001499s)
+[2015.10.23-00.12.04:611][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/ElevatorLevel.ElevatorLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel (0.041091s)
+[2015.10.23-00.12.04:646][ 85]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.23-00.12.04:655][ 85]LogInit: FAudioDevice initialized.
+[2015.10.23-00.12.04:690][ 85]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.23-00.12.04:700][ 85]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel up for play (max tick rate 0) at 2015.10.22-19.12.04
+[2015.10.23-00.12.04:700][ 85]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.12.04:701][ 85]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.12.04:702][ 85]LogWorld: Bringing up level for play took: 0.009417
+[2015.10.23-00.12.04:705][ 85]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel 1.335
+[2015.10.23-00.12.09:469][298]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.12.11:231][377]LogBlueprintUserMessages: Press E
+[2015.10.23-00.12.13:330][471]LogBlueprintUserMessages: Press E
+[2015.10.23-00.12.14:796][538]LogBlueprintUserMessages: Floor 3 Button Pressed
+[2015.10.23-00.12.21:357][832]LogBlueprintUserMessages: Floor 2 Button Pressed
+[2015.10.23-00.12.24:048][956]LogBlueprintUserMessages: Floor 1 Button Pressed
+[2015.10.23-00.12.30:814][254]LogBlueprintUserMessages: Floor 1 Button Pressed
+[2015.10.23-00.12.33:241][362]LogBlueprintUserMessages: Press E
+[2015.10.23-00.12.33:323][366]LogBlueprintUserMessages: Floor 2 Button Pressed
+[2015.10.23-00.12.34:965][441]LogBlueprintUserMessages: Floor 2 Button Pressed
+[2015.10.23-00.12.35:810][480]LogBlueprintUserMessages: Floor 2 Button Pressed
+[2015.10.23-00.12.37:314][548]LogBlueprintUserMessages: Floor 3 Button Pressed
+[2015.10.23-00.12.39:319][641]LogBlueprintUserMessages: Floor 2 Button Pressed
+[2015.10.23-00.12.40:236][683]LogBlueprintUserMessages: Floor 2 Button Pressed
+[2015.10.23-00.12.41:006][718]LogBlueprintUserMessages: Floor 2 Button Pressed
+[2015.10.23-00.12.46:086][945]LogBlueprintUserMessages: Floor 1 Button Pressed
+[2015.10.23-00.12.47:903][ 27]LogBlueprintUserMessages: Press E
+[2015.10.23-00.12.48:677][ 61]LogBlueprintUserMessages: Press E
+[2015.10.23-00.12.48:719][ 63]LogBlueprintUserMessages: Press E
+[2015.10.23-00.12.50:624][148]LogBlueprintUserMessages: Floor 3 Button Pressed
+[2015.10.23-00.13.03:443][720]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006759C2C0
+[2015.10.23-00.13.29:814][943]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.13.30:155][955]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.13.32:232][ 45]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.13.34:919][169]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.13.41:504][220]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.13.41:548][220]LogFactory: FactoryCreateBinary: SoundWave with SoundFactory (0 0 ../../../../../../Users/win7/Downloads/186104__marcel-farres__elevator.wav)
+[2015.10.23-00.13.41:569][220]LogAudioDerivedData:Display: Building compressed audio format OGG wave 186104__marcel-farres__elevator...
+[2015.10.23-00.13.41:876][220]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonBP/Audio/186104__marcel-farres__elevator.186104__marcel-farres__elevator.
+[2015.10.23-00.13.41:899][220]LogFactory: FactoryCreateBinary: SoundWave with SoundFactory (0 0 ../../../../../../Users/win7/Downloads/241763__gilps__elevator-opening.wav)
+[2015.10.23-00.13.41:908][220]LogAudioDerivedData:Display: Building compressed audio format OGG wave 241763__gilps__elevator-opening...
+[2015.10.23-00.13.42:138][220]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonBP/Audio/241763__gilps__elevator-opening.241763__gilps__elevator-opening.
+[2015.10.23-00.13.44:088][297]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.13.45:093][338]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.13.45:441][353]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.14.12:941][894]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.14.21:608][920]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.14.21:898][920]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.14.21:905][920]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1754.28] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 57 ms]
+[2015.10.23-00.14.21:906][920]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1754.28] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.23-00.14.21:906][920]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1754.28] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.23-00.14.21:946][920]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1754.32] Compile of ElevatorLevel successful, but with 4 Warning(s) [in 40 ms]
+[2015.10.23-00.14.21:961][920]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1754.34] Compile of ElevatorLevel successful, but with 5 Warning(s) [in 14 ms]
+[2015.10.23-00.14.21:961][920]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1754.34] Compile of ElevatorLevel successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.23-00.14.22:263][920]LogSavePackage: Save=442.131927ms
+[2015.10.23-00.14.22:263][920]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/ElevatorLevel_Auto25739828547F7C3ECC11453A951F4FBF2.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/Autosaves/Game/FirstPersonBP/Maps/ElevatorLevel_Auto2.umap'
+[2015.10.23-00.14.22:269][920]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/ElevatorLevel' took 0.511
+[2015.10.23-00.14.22:269][920]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.511
+[2015.10.23-00.14.22:279][920]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Widgets/CallButton] ([1] browsable assets)...
+[2015.10.23-00.14.22:279][920]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Widgets/CallButton]
+[2015.10.23-00.14.22:317][920]LogSavePackage: Save=24.129984ms
+[2015.10.23-00.14.22:317][920]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/CallButton_Auto26628AD0B44054402EF405CB4A0D8E874.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/Autosaves/Game/FirstPersonBP/Widgets/CallButton_Auto2.uasset'
+[2015.10.23-00.14.22:325][920]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Audio/186104__marcel-farres__elevator] ([1] browsable assets)...
+[2015.10.23-00.14.22:354][920]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/Audio/186104__marcel-farres__elevator.186104__marcel-farres__elevator]
+[2015.10.23-00.14.22:354][920]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Audio/186104__marcel-farres__elevator]
+[2015.10.23-00.14.22:388][920]LogSavePackage: Save=31.106905ms
+[2015.10.23-00.14.22:388][920]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/186104__marcel-farres__elevator_Auto23507236942F1343B9B0E6FBF806F303C.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/Autosaves/Game/FirstPersonBP/Audio/186104__marcel-farres__elevator_Auto2.uasset'
+[2015.10.23-00.14.22:395][920]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Audio/241763__gilps__elevator-opening] ([1] browsable assets)...
+[2015.10.23-00.14.22:408][920]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/Audio/241763__gilps__elevator-opening.241763__gilps__elevator-opening]
+[2015.10.23-00.14.22:408][920]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Audio/241763__gilps__elevator-opening]
+[2015.10.23-00.14.22:418][920]LogSavePackage: Save=8.454274ms
+[2015.10.23-00.14.22:418][920]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/241763__gilps__elevator-opening_Auto2888087A541344A2D36FB0880D05E70AE.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/Autosaves/Game/FirstPersonBP/Audio/241763__gilps__elevator-opening_Auto2.uasset'
+[2015.10.23-00.14.22:419][920]LogFileHelpers: Auto-saving content packages took 0.146
+[2015.10.23-00.14.33:925][137]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.14.34:327][150]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.14.35:537][206]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.14.35:588][207]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.14.35:630][208]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.14.39:468][358]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.14.39:809][370]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.14.46:833][441]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.14.46:861][441]LogFactory: FactoryCreateBinary: SoundWave with SoundFactory (0 0 ../../../../../../Users/win7/Downloads/202909__phil25__flat-button-clicks.wav)
+[2015.10.23-00.14.47:007][441]LogAudioDerivedData:Display: Building compressed audio format OGG wave 202909__phil25__flat-button-clicks...
+[2015.10.23-00.14.47:285][441]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/FirstPersonBP/Audio/202909__phil25__flat-button-clicks.202909__phil25__flat-button-clicks.
+[2015.10.23-00.14.52:696][670]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.15.07:213][337]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.15.19:065][904]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.15.24:337][220]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.10.23-00.15.24:474][220]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.15.24:515][220]LogBlueprint:Warning: [compiler CallButton] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.15.24:551][220]LogBlueprint:Warning: [compiler Menu] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.15.24:637][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.10.23-00.15.24:726][220]BlueprintEditorCompileResults: Info [1817.11] Compile of FirstPersonCharacter successful! [in 388 ms]
+[2015.10.23-00.15.39:674][956]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.15.41:005][ 15]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.15.43:132][100]LogContentBrowser: Native class hierarchy updated for 'Matinee' in 0.0010 seconds. Added 15 classes and 2 folders.
+[2015.10.23-00.15.43:152][100]LogInit: Transaction tracking system initialized
+[2015.10.23-00.15.43:154][100]EditorErrors: New page: Matinee Initialization
+[2015.10.23-00.15.45:290][247]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.15.48:167][484]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_D (AutoDXT)
+[2015.10.23-00.15.48:436][484]LogTexture:Display: Building textures: T_ML_Rubber_Blue_01_N (BC5)
+[2015.10.23-00.15.48:491][484]LogTexture:Display: Building textures: T_ML_Aluminum01 (AutoDXT)
+[2015.10.23-00.15.48:705][484]LogTexture:Display: Building textures: T_ML_Aluminum01_N (BC5)
+[2015.10.23-00.15.48:764][484]LogTexture:Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT)
+[2015.10.23-00.15.49:077][484]LogTexture:Display: Building textures: UE4_Mannequin__normals (BC5)
+[2015.10.23-00.15.49:738][484]LogTexture:Display: Building textures: UE4_Mannequin_occlusion_Mobile (AutoDXT)
+[2015.10.23-00.15.49:927][484]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2015.10.23-00.15.51:223][537]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.15.58:276][862]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.16.00:348][958]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.16.00:989][988]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.16.09:245][492]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.16.10:939][607]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.16.33:123][ 69]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.16.36:172][265]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.16.37:894][382]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.16.39:973][520]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.16.45:069][834]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.16.47:073][960]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.17.44:204][634]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.17.46:788][634]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.23-00.17.46:818][634]LogPlayLevel: [PIE] Compiling ElevatorLevel before PIE...
+[2015.10.23-00.17.46:917][634]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.17.46:932][634]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1959.32] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 88 ms]
+[2015.10.23-00.17.46:932][634]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1959.32] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.23-00.17.46:932][634]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1959.32] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.23-00.17.46:987][634]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1959.37] Compile of ElevatorLevel successful, but with 4 Warning(s) [in 54 ms]
+[2015.10.23-00.17.47:000][634]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1959.38] Compile of ElevatorLevel successful, but with 5 Warning(s) [in 12 ms]
+[2015.10.23-00.17.47:000][634]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1959.38] Compile of ElevatorLevel successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.23-00.17.47:000][634]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.10.23-00.17.47:026][634]LogExit: Transaction tracking system shut down
+[2015.10.23-00.17.47:045][634]LogPlayLevel: PIE:  Blueprint regeneration took 256 ms (1 blueprints)
+[2015.10.23-00.17.47:045][634]PIE: New page: PIE session: ElevatorLevel (Oct 22, 2015, 2:17:47 PM)
+[2015.10.23-00.17.47:046][634]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel
+[2015.10.23-00.17.47:090][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043735s)
+[2015.10.23-00.17.47:091][634]LogAIModule: Creating AISystem for world ElevatorLevel
+[2015.10.23-00.17.47:092][634]LogPlayLevel: PIE: World Init took: (0.002771s)
+[2015.10.23-00.17.47:093][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/ElevatorLevel.ElevatorLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel (0.047037s)
+[2015.10.23-00.17.47:145][634]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.23-00.17.47:159][634]LogInit: FAudioDevice initialized.
+[2015.10.23-00.17.47:199][634]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.23-00.17.47:221][634]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel up for play (max tick rate 0) at 2015.10.22-19.17.47
+[2015.10.23-00.17.47:221][634]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.17.47:223][634]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.17.47:224][634]LogWorld: Bringing up level for play took: 0.020798
+[2015.10.23-00.17.47:231][634]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel 3.868
+[2015.10.23-00.17.51:706][917]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.17.53:524][ 31]LogBlueprintUserMessages: Press E
+[2015.10.23-00.17.55:232][135]LogBlueprintUserMessages: Press E
+[2015.10.23-00.17.57:052][250]LogBlueprintUserMessages: Floor 3 Button Pressed
+[2015.10.23-00.18.01:563][518]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000ED02520
+[2015.10.23-00.18.05:826][601]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.18.06:941][656]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.23-00.18.06:953][656]LogPlayLevel: [PIE] Compiling ElevatorLevel before PIE...
+[2015.10.23-00.18.07:042][656]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.18.07:048][656]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1979.43] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 70 ms]
+[2015.10.23-00.18.07:048][656]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1979.43] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.23-00.18.07:048][656]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1979.43] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.23-00.18.07:100][656]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1979.49] Compile of ElevatorLevel successful, but with 4 Warning(s) [in 51 ms]
+[2015.10.23-00.18.07:115][656]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1979.50] Compile of ElevatorLevel successful, but with 5 Warning(s) [in 14 ms]
+[2015.10.23-00.18.07:115][656]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [1979.50] Compile of ElevatorLevel successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.23-00.18.07:165][656]LogPlayLevel: PIE:  Blueprint regeneration took 224 ms (1 blueprints)
+[2015.10.23-00.18.07:165][656]PIE: New page: PIE session: ElevatorLevel (Oct 22, 2015, 2:18:07 PM)
+[2015.10.23-00.18.07:166][656]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel
+[2015.10.23-00.18.07:208][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042727s)
+[2015.10.23-00.18.07:210][656]LogAIModule: Creating AISystem for world ElevatorLevel
+[2015.10.23-00.18.07:211][656]LogPlayLevel: PIE: World Init took: (0.002174s)
+[2015.10.23-00.18.07:211][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/ElevatorLevel.ElevatorLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel (0.045222s)
+[2015.10.23-00.18.07:253][656]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.23-00.18.07:264][656]LogInit: FAudioDevice initialized.
+[2015.10.23-00.18.07:310][656]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.23-00.18.07:333][656]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel up for play (max tick rate 0) at 2015.10.22-19.18.07
+[2015.10.23-00.18.07:334][656]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.18.07:335][656]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.18.07:336][656]LogWorld: Bringing up level for play took: 0.020618
+[2015.10.23-00.18.07:343][656]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel -0.018
+[2015.10.23-00.18.11:015][872]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.18.13:038][989]LogBlueprintUserMessages: Press E
+[2015.10.23-00.18.15:596][135]LogBlueprintUserMessages: Floor 3 Button Pressed
+[2015.10.23-00.18.33:028][137]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003CA5C360
+[2015.10.23-00.18.38:936][460]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.18.44:076][755]LogInit: Transaction tracking system initialized
+[2015.10.23-00.18.44:076][755]EditorErrors: New page: Matinee Initialization
+[2015.10.23-00.21.18:653][196]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.21.27:185][688]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.21.31:827][944]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.21.47:199][453]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.21.57:908][ 20]BlueprintLog: New page: Compile Menu
+[2015.10.23-00.21.57:946][ 20]LogBlueprint:Warning: [compiler Menu] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.21.57:996][ 20]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.10.23-00.21.58:050][ 20]LogBlueprint:Warning: [compiler Menu] Warning [2210.44] Compile of Menu successful, but with 1 Warning(s) [in 141 ms]
+[2015.10.23-00.21.58:050][ 20]BlueprintEditorCompileResults:Warning: Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.21.58:050][ 20]BlueprintEditorCompileResults:Warning: Warning [2210.44] Compile of Menu successful, but with 1 Warning(s) [in 141 ms]
+[2015.10.23-00.21.58:977][ 66]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.21.58:997][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Widgets/Menu" FILE="../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/Menu.uasset" SILENT=true
+[2015.10.23-00.21.59:078][ 66]LogSavePackage: Save=59.850777ms
+[2015.10.23-00.21.59:078][ 66]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/Menu49D6CD5F44077E95A5749CB8E6397297.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/Menu.uasset'
+[2015.10.23-00.22.00:599][147]MapCheck: New page: Map Check
+[2015.10.23-00.22.00:608][147]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.22.00:619][147]Cmd: MAP REBUILD ALLVISIBLE
+[2015.10.23-00.22.00:620][147]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.10.23-00.22.00:690][147]LightingResults: New page: Lighting Build - Oct 22, 2015, 2:22:00 PM
+[2015.10.23-00.22.00:743][147]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.10.23-00.22.00:743][147]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.10.23-00.22.00:743][147]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.10.23-00.22.00:743][147]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.10.23-00.22.00:743][147]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.10.23-00.22.00:743][147]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.10.23-00.22.00:817][147]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.22.00:839][147]LogEditorBuildUtils: Build time 0:00:00
+[2015.10.23-00.22.00:848][147]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.22.03:481][245]Job is a success!
+[2015.10.23-00.22.03:510][246]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.22.06:609][397]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.22.08:607][397]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.23-00.22.08:644][397]LogPlayLevel: [PIE] Compiling ElevatorLevel before PIE...
+[2015.10.23-00.22.08:722][397]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.22.08:729][397]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [2221.12] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 61 ms]
+[2015.10.23-00.22.08:730][397]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [2221.12] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.23-00.22.08:730][397]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [2221.12] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.23-00.22.08:780][397]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [2221.17] Compile of ElevatorLevel successful, but with 4 Warning(s) [in 49 ms]
+[2015.10.23-00.22.08:794][397]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [2221.19] Compile of ElevatorLevel successful, but with 5 Warning(s) [in 14 ms]
+[2015.10.23-00.22.08:794][397]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [2221.19] Compile of ElevatorLevel successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.23-00.22.08:818][397]LogExit: Transaction tracking system shut down
+[2015.10.23-00.22.08:834][397]LogPlayLevel: PIE:  Blueprint regeneration took 226 ms (1 blueprints)
+[2015.10.23-00.22.08:834][397]PIE: New page: PIE session: ElevatorLevel (Oct 22, 2015, 2:22:08 PM)
+[2015.10.23-00.22.08:835][397]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel
+[2015.10.23-00.22.08:875][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040175s)
+[2015.10.23-00.22.08:876][397]LogAIModule: Creating AISystem for world ElevatorLevel
+[2015.10.23-00.22.08:876][397]LogPlayLevel: PIE: World Init took: (0.001408s)
+[2015.10.23-00.22.08:876][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/ElevatorLevel.ElevatorLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel (0.041821s)
+[2015.10.23-00.22.08:919][397]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.23-00.22.08:932][397]LogInit: FAudioDevice initialized.
+[2015.10.23-00.22.08:964][397]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.23-00.22.08:982][397]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel up for play (max tick rate 0) at 2015.10.22-19.22.08
+[2015.10.23-00.22.08:983][397]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.22.08:984][397]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.22.08:985][397]LogWorld: Bringing up level for play took: 0.018225
+[2015.10.23-00.22.08:992][397]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel 1.64
+[2015.10.23-00.22.13:746][688]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.22.15:746][810]LogBlueprintUserMessages: Press E
+[2015.10.23-00.22.23:442][277]LogBlueprintUserMessages: Press E
+[2015.10.23-00.22.25:896][425]LogBlueprintUserMessages: Floor 3 Button Pressed
+[2015.10.23-00.22.44:570][552]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.22.56:061][246]LogBlueprintUserMessages: Floor 1 Button Pressed
+[2015.10.23-00.23.01:688][582]LogBlueprintUserMessages: Press E
+[2015.10.23-00.23.02:914][655]LogBlueprintUserMessages: Press E
+[2015.10.23-00.23.05:889][837]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.23.10:805][132]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.23.10:989][143]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.23.11:157][153]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.23.11:308][162]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.23.11:474][172]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.23.11:623][181]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.23.11:791][191]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.23.11:943][200]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.23.12:129][211]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.23.12:280][220]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.23.12:446][230]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.23.12:596][239]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.23.12:781][250]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.23.12:932][259]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.23.14:340][340]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000ED037E0
+[2015.10.23-00.23.23:487][865]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.23.23:949][886]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.23.24:075][886]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.23.58:600][569]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.24.08:992][938]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.24.11:480][ 27]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.24.27:656][652]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.24.29:829][731]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.25.07:698][233]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.25.09:093][284]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.25.29:776][ 95]BlueprintLog: New page: Compile ElevatorLevel
+[2015.10.23-00.25.29:880][ 95]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.25.30:045][ 95]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [2422.45] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 268 ms]
+[2015.10.23-00.25.30:045][ 95]BlueprintEditorCompileResults:Warning: Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.25.30:045][ 95]BlueprintEditorCompileResults:Warning: Warning [2422.45] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 268 ms]
+[2015.10.23-00.25.30:826][122]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.23-00.25.30:849][122]LogPlayLevel: [PIE] Compiling ElevatorLevel before PIE...
+[2015.10.23-00.25.30:928][122]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.25.30:936][122]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [2423.34] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 59 ms]
+[2015.10.23-00.25.30:937][122]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [2423.34] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.23-00.25.30:937][122]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [2423.34] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.23-00.25.30:988][122]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [2423.39] Compile of ElevatorLevel successful, but with 4 Warning(s) [in 50 ms]
+[2015.10.23-00.25.31:002][122]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [2423.41] Compile of ElevatorLevel successful, but with 5 Warning(s) [in 13 ms]
+[2015.10.23-00.25.31:002][122]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [2423.41] Compile of ElevatorLevel successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.23-00.25.31:049][122]LogPlayLevel: PIE:  Blueprint regeneration took 223 ms (1 blueprints)
+[2015.10.23-00.25.31:050][122]PIE: New page: PIE session: ElevatorLevel (Oct 22, 2015, 2:25:31 PM)
+[2015.10.23-00.25.31:050][122]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel
+[2015.10.23-00.25.31:095][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044815s)
+[2015.10.23-00.25.31:096][122]LogAIModule: Creating AISystem for world ElevatorLevel
+[2015.10.23-00.25.31:097][122]LogPlayLevel: PIE: World Init took: (0.001498s)
+[2015.10.23-00.25.31:097][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/ElevatorLevel.ElevatorLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel (0.046559s)
+[2015.10.23-00.25.31:132][122]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.23-00.25.31:141][122]LogInit: FAudioDevice initialized.
+[2015.10.23-00.25.31:187][122]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.23-00.25.31:211][122]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel up for play (max tick rate 0) at 2015.10.22-19.25.31
+[2015.10.23-00.25.31:211][122]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.25.31:212][122]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.25.31:214][122]LogWorld: Bringing up level for play took: 0.021748
+[2015.10.23-00.25.31:220][122]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel -0.124
+[2015.10.23-00.25.36:759][331]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.25.38:763][406]LogBlueprintUserMessages: Press E
+[2015.10.23-00.25.39:843][446]LogBlueprintUserMessages: Press E
+[2015.10.23-00.25.41:358][503]LogBlueprintUserMessages: Floor 3 Button Pressed
+[2015.10.23-00.25.54:268][983]LogBlueprintUserMessages: Floor 1 Button Pressed
+[2015.10.23-00.26.00:059][196]LogBlueprintUserMessages: Press E
+[2015.10.23-00.26.00:876][226]LogBlueprintUserMessages: Press E
+[2015.10.23-00.26.02:603][292]LogBlueprintUserMessages: Floor 3 Button Pressed
+[2015.10.23-00.26.08:345][509]LogBlueprintUserMessages: Floor 2 Button Pressed
+[2015.10.23-00.26.18:759][907]LogBlueprintUserMessages: Floor 1 Button Pressed
+[2015.10.23-00.26.21:323][  4]LogBlueprintUserMessages: Press E
+[2015.10.23-00.26.22:090][ 33]LogBlueprintUserMessages: Press E
+[2015.10.23-00.26.42:214][778]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000195AE340
+[2015.10.23-00.27.15:931][112]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.27.24:951][469]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.27.25:287][469]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.27.25:294][469]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [2537.70] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 70 ms]
+[2015.10.23-00.27.25:294][469]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [2537.70] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.23-00.27.25:294][469]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [2537.70] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.23-00.27.25:336][469]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [2537.74] Compile of ElevatorLevel successful, but with 4 Warning(s) [in 41 ms]
+[2015.10.23-00.27.25:348][469]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [2537.76] Compile of ElevatorLevel successful, but with 5 Warning(s) [in 12 ms]
+[2015.10.23-00.27.25:349][469]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [2537.76] Compile of ElevatorLevel successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.23-00.27.25:641][469]LogSavePackage: Save=443.275665ms
+[2015.10.23-00.27.25:641][469]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/ElevatorLevel_Auto38B8169E74D6C0D480359A183A5721C30.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/Autosaves/Game/FirstPersonBP/Maps/ElevatorLevel_Auto3.umap'
+[2015.10.23-00.27.25:647][469]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/ElevatorLevel' took 0.520
+[2015.10.23-00.27.25:647][469]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.520
+[2015.10.23-00.27.25:659][469]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2015.10.23-00.27.25:659][469]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2015.10.23-00.27.25:790][469]LogSavePackage: Save=115.170143ms
+[2015.10.23-00.27.25:790][469]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/FirstPersonCharacter_Auto3DFD80E5849C238020564DCA615720D6B.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto3.uasset'
+[2015.10.23-00.27.25:799][469]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Widgets/CallButton] ([1] browsable assets)...
+[2015.10.23-00.27.25:799][469]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Widgets/CallButton]
+[2015.10.23-00.27.25:839][469]LogSavePackage: Save=22.164333ms
+[2015.10.23-00.27.25:839][469]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/CallButton_Auto317153EAB42BB6B8E3B7863A7007CCAB8.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/Autosaves/Game/FirstPersonBP/Widgets/CallButton_Auto3.uasset'
+[2015.10.23-00.27.25:845][469]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Audio/202909__phil25__flat-button-clicks] ([1] browsable assets)...
+[2015.10.23-00.27.25:855][469]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/FirstPersonBP/Audio/202909__phil25__flat-button-clicks.202909__phil25__flat-button-clicks]
+[2015.10.23-00.27.25:855][469]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Audio/202909__phil25__flat-button-clicks]
+[2015.10.23-00.27.25:869][469]LogSavePackage: Save=10.093293ms
+[2015.10.23-00.27.25:869][469]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/202909__phil25__flat-button-clicks_Auto30F5EC3AA47F6A3EB6B8D69B60D2CA035.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/Autosaves/Game/FirstPersonBP/Audio/202909__phil25__flat-button-clicks_Auto3.uasset'
+[2015.10.23-00.27.25:871][469]LogFileHelpers: Auto-saving content packages took 0.220
+[2015.10.23-00.29.58:583][759]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.30.57:616][528]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.31.05:772][923]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.31.13:621][312]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.31.14:031][332]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.31.16:153][436]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.31.19:084][578]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.32.20:138][330]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.33.38:951][302]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.33.39:024][302]LightingResults:Error: Error ElevatorLight Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2015.10.23-00.33.39:068][302]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.10.23-00.33.39:121][302]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.10.23-00.33.39:135][302]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.10.23-00.33.39:165][302]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.10.23-00.33.39:241][302]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.10.23-00.33.39:261][302]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.10.23-00.33.39:276][302]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.33.39:279][302]Lightmass on SC10111: 11:37 min total, 183 ms importing, 6 ms setup, 283 ms photons, 11:37 min processing, 0 ms extra exporting [55/55 mappings]. Threads: 46:29 min total, 3.82 sec processing.
+[2015.10.23-00.33.39:344][302]LogStaticLightingSystem: Illumination: 3.19 sec (238 ms encoding lightmaps)
+[2015.10.23-00.33.39:344][302]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.1 MB streaming, 0.3 MB non-streaming), 4 textures
+[2015.10.23-00.33.39:344][302]LogStaticLightingSystem: Shadowmap texture memory: 1.7 MB (0.3 MB streaming, 1.3 MB non-streaming), 4 textures
+[2015.10.23-00.33.39:810][303]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.10.23-00.33.39:811][303]MapCheck: New page: ElevatorLevel - Oct 22, 2015, 2:33:39 PM
+[2015.10.23-00.33.39:905][303]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 94.664ms to complete.
+[2015.10.23-00.34.36:244][  1]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.34.43:218][346]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.35.15:060][863]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.36.08:535][ 98]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.36.34:681][252]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.36.36:541][346]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.36.41:232][584]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.10.23-00.36.41:419][584]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.36.41:546][584]LogBlueprint:Warning: [compiler Menu] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.36.41:589][584]LogBlueprint:Warning: [compiler CallButton] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.36.41:776][584]BlueprintEditorCompileResults: Info [3094.15] Compile of FirstPersonCharacter successful! [in 544 ms]
+[2015.10.23-00.36.42:985][646]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.23-00.36.42:999][646]LogPlayLevel: [PIE] Compiling ElevatorLevel before PIE...
+[2015.10.23-00.36.43:074][646]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.36.43:081][646]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3095.46] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 55 ms]
+[2015.10.23-00.36.43:081][646]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3095.46] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.23-00.36.43:081][646]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3095.46] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.23-00.36.43:122][646]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3095.50] Compile of ElevatorLevel successful, but with 4 Warning(s) [in 40 ms]
+[2015.10.23-00.36.43:139][646]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3095.52] Compile of ElevatorLevel successful, but with 5 Warning(s) [in 17 ms]
+[2015.10.23-00.36.43:139][646]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3095.52] Compile of ElevatorLevel successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.23-00.36.43:194][646]LogPlayLevel: PIE:  Blueprint regeneration took 209 ms (1 blueprints)
+[2015.10.23-00.36.43:195][646]PIE: New page: PIE session: ElevatorLevel (Oct 22, 2015, 2:36:43 PM)
+[2015.10.23-00.36.43:196][646]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel
+[2015.10.23-00.36.43:245][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048746s)
+[2015.10.23-00.36.43:245][646]LogAIModule: Creating AISystem for world ElevatorLevel
+[2015.10.23-00.36.43:246][646]LogPlayLevel: PIE: World Init took: (0.001488s)
+[2015.10.23-00.36.43:246][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/ElevatorLevel.ElevatorLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel (0.050530s)
+[2015.10.23-00.36.43:295][646]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.23-00.36.43:309][646]LogInit: FAudioDevice initialized.
+[2015.10.23-00.36.43:355][646]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.23-00.36.43:379][646]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel up for play (max tick rate 0) at 2015.10.22-19.36.43
+[2015.10.23-00.36.43:379][646]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.36.43:380][646]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.36.43:381][646]LogWorld: Bringing up level for play took: 0.020526
+[2015.10.23-00.36.43:384][646]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel 0.015
+[2015.10.23-00.36.46:885][873]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.36.47:187][893]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.36.47:624][922]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.36.47:837][936]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.36.47:987][946]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.36.48:143][956]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.36.49:540][ 45]LogBlueprintUserMessages: Press E
+[2015.10.23-00.36.50:660][117]LogBlueprintUserMessages: Press E
+[2015.10.23-00.36.52:823][257]LogBlueprintUserMessages: Floor 3 Button Pressed
+[2015.10.23-00.36.53:083][274]LogBlueprintUserMessages: Floor 3 Button Pressed
+[2015.10.23-00.36.53:898][327]LogBlueprintUserMessages: Floor 3 Button Pressed
+[2015.10.23-00.36.58:096][583]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003C891EE0
+[2015.10.23-00.37.16:194][563]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.37.18:702][684]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.37.59:718][636]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.38.02:415][773]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.38.11:388][261]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.10.23-00.38.11:479][261]LogBlueprint:Warning: [compiler Menu] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.38.11:518][261]LogBlueprint:Warning: [compiler CallButton] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.38.11:582][261]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.38.11:758][261]BlueprintEditorCompileResults: Info [3184.13] Compile of FirstPersonCharacter successful! [in 369 ms]
+[2015.10.23-00.38.12:554][300]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.23-00.38.12:567][300]LogPlayLevel: [PIE] Compiling ElevatorLevel before PIE...
+[2015.10.23-00.38.12:641][300]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.38.12:648][300]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3185.02] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 55 ms]
+[2015.10.23-00.38.12:648][300]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3185.02] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.23-00.38.12:648][300]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3185.02] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.23-00.38.12:703][300]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3185.07] Compile of ElevatorLevel successful, but with 4 Warning(s) [in 54 ms]
+[2015.10.23-00.38.12:715][300]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3185.09] Compile of ElevatorLevel successful, but with 5 Warning(s) [in 12 ms]
+[2015.10.23-00.38.12:715][300]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3185.09] Compile of ElevatorLevel successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.23-00.38.12:777][300]LogPlayLevel: PIE:  Blueprint regeneration took 222 ms (1 blueprints)
+[2015.10.23-00.38.12:777][300]PIE: New page: PIE session: ElevatorLevel (Oct 22, 2015, 2:38:12 PM)
+[2015.10.23-00.38.12:778][300]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel
+[2015.10.23-00.38.12:832][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054373s)
+[2015.10.23-00.38.12:833][300]LogAIModule: Creating AISystem for world ElevatorLevel
+[2015.10.23-00.38.12:834][300]LogPlayLevel: PIE: World Init took: (0.001445s)
+[2015.10.23-00.38.12:834][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/ElevatorLevel.ElevatorLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel (0.056111s)
+[2015.10.23-00.38.12:877][300]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.23-00.38.12:888][300]LogInit: FAudioDevice initialized.
+[2015.10.23-00.38.12:923][300]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.23-00.38.12:937][300]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel up for play (max tick rate 0) at 2015.10.22-19.38.12
+[2015.10.23-00.38.12:937][300]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.38.12:939][300]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.38.12:940][300]LogWorld: Bringing up level for play took: 0.014269
+[2015.10.23-00.38.12:946][300]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel -0.429
+[2015.10.23-00.38.19:300][716]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.38.19:618][736]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.38.20:024][762]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.38.20:250][777]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.38.20:417][788]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.38.22:475][918]LogBlueprintUserMessages: Press E
+[2015.10.23-00.38.23:105][957]LogBlueprintUserMessages: Press E
+[2015.10.23-00.38.25:324][101]LogBlueprintUserMessages: Floor 3 Button Pressed
+[2015.10.23-00.38.26:391][165]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000672FC400
+[2015.10.23-00.38.43:863][ 75]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.38.52:494][456]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.38.53:920][532]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.38.55:700][626]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.39.00:643][873]BlueprintLog: New page: Compile FirstPersonCharacter
+[2015.10.23-00.39.00:748][873]LogBlueprint:Warning: [compiler Menu] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.39.00:790][873]LogBlueprint:Warning: [compiler CallButton] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.39.00:869][873]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.39.01:046][873]BlueprintEditorCompileResults: Info [3233.42] Compile of FirstPersonCharacter successful! [in 402 ms]
+[2015.10.23-00.39.56:604][398]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.39.56:774][398]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.39.56:781][398]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3289.15] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 60 ms]
+[2015.10.23-00.39.56:781][398]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3289.15] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.23-00.39.56:782][398]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3289.15] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.23-00.39.56:822][398]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3289.19] Compile of ElevatorLevel successful, but with 4 Warning(s) [in 40 ms]
+[2015.10.23-00.39.56:835][398]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3289.20] Compile of ElevatorLevel successful, but with 5 Warning(s) [in 12 ms]
+[2015.10.23-00.39.56:835][398]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3289.20] Compile of ElevatorLevel successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.23-00.39.57:097][398]LogSavePackage: Save=403.225464ms
+[2015.10.23-00.39.57:097][398]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/ElevatorLevel7346AF03495AE993AFF7DB94D1CC81B5.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Maps/ElevatorLevel.umap'
+[2015.10.23-00.40.26:825][711]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.40.29:539][835]BlueprintLog: New page: Compile CallButton
+[2015.10.23-00.40.29:564][835]LogBlueprint:Warning: [compiler CallButton] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.40.29:667][835]LogBlueprint:Warning: [compiler CallButton] Warning [3322.03] Compile of CallButton successful, but with 1 Warning(s) [in 127 ms]
+[2015.10.23-00.40.29:667][835]BlueprintEditorCompileResults:Warning: Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.40.29:667][835]BlueprintEditorCompileResults:Warning: Warning [3322.03] Compile of CallButton successful, but with 1 Warning(s) [in 127 ms]
+[2015.10.23-00.40.30:179][861]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.40.30:234][861]LogSavePackage: Save=28.742773ms
+[2015.10.23-00.40.30:234][861]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/CallButtonA44AE98343BBD04060ED888A50643AC9.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/CallButton.uasset'
+[2015.10.23-00.41.17:005][874]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.41.20:490][992]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.41.23:306][ 88]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.41.52:244][119]BlueprintLog: New page: Compile CallButton
+[2015.10.23-00.41.52:270][119]LogBlueprint:Warning: [compiler CallButton] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.41.52:443][119]LogBlueprint:Warning: [compiler CallButton] Warning [3404.80] Compile of CallButton successful, but with 1 Warning(s) [in 197 ms]
+[2015.10.23-00.41.52:443][119]BlueprintEditorCompileResults:Warning: Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.41.52:443][119]BlueprintEditorCompileResults:Warning: Warning [3404.80] Compile of CallButton successful, but with 1 Warning(s) [in 197 ms]
+[2015.10.23-00.41.54:096][182]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.41.54:149][182]LogSavePackage: Save=26.036613ms
+[2015.10.23-00.41.54:149][182]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/CallButtonFC6422DB46C70F38F7E7B09386EA6C25.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/CallButton.uasset'
+[2015.10.23-00.42.02:338][540]BlueprintLog: New page: Compile FloorId
+[2015.10.23-00.42.02:481][540]BlueprintEditorCompileResults: Info [3414.84] Compile of FloorId successful! [in 142 ms]
+[2015.10.23-00.42.03:341][571]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.42.03:360][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Widgets/FloorId" FILE="../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/FloorId.uasset" SILENT=true
+[2015.10.23-00.42.03:385][571]LogSavePackage: Save=10.115289ms
+[2015.10.23-00.42.03:385][571]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/FloorIdCA5C22E24A5659809803A68EA7CF14CE.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/FloorId.uasset'
+[2015.10.23-00.42.30:837][556]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.43.28:721][268]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.43.29:536][289]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.43.31:307][338]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.43.34:909][435]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.43.35:039][437]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.43.36:495][478]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.43.37:164][496]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.43.37:309][499]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.43.37:438][500]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.43.37:500][501]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.43.38:183][519]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.43.41:763][622]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.43.44:560][700]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.43.56:508][ 38]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.43.57:064][ 54]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.44.02:498][207]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.44.07:072][419]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.44.12:220][618]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.44.49:961][ 71]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.44.53:803][199]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.44.59:930][419]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.45.02:285][503]BlueprintLog: New page: Compile Press_E
+[2015.10.23-00.45.02:436][503]BlueprintEditorCompileResults: Info [3594.78] Compile of Press_E successful! [in 151 ms]
+[2015.10.23-00.45.03:379][538]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.45.03:397][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Widgets/Press_E" FILE="../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/Press_E.uasset" SILENT=true
+[2015.10.23-00.45.03:410][538]LogSavePackage: Save=11.529589ms
+[2015.10.23-00.45.03:410][538]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/Press_E0CDC9F59497C4DDFA6648E882FE6A783.tmp' to '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Content/FirstPersonBP/Widgets/Press_E.uasset'
+[2015.10.23-00.45.08:798][722]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.45.51:399][163]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.46.13:313][213]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.46.13:333][213]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.10.23-00.46.16:577][368]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.46.24:922][733]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.46.26:111][797]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.46.34:722][267]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.47.00:631][263]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.47.17:385][996]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.47.32:069][595]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.47.57:308][742]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.48.09:744][298]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.48.13:062][402]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.48.19:019][650]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.48.48:427][ 30]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.48.55:065][340]BlueprintLog: New page: Compile ElevatorLevel
+[2015.10.23-00.48.55:143][340]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.48.55:268][340]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3827.60] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 202 ms]
+[2015.10.23-00.48.55:268][340]BlueprintEditorCompileResults:Warning: Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.48.55:268][340]BlueprintEditorCompileResults:Warning: Warning [3827.60] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 202 ms]
+[2015.10.23-00.48.56:343][387]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.23-00.48.56:367][387]LogPlayLevel: [PIE] Compiling ElevatorLevel before PIE...
+[2015.10.23-00.48.56:446][387]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.48.56:453][387]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3828.79] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 59 ms]
+[2015.10.23-00.48.56:453][387]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3828.79] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.23-00.48.56:453][387]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3828.79] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.23-00.48.56:495][387]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3828.83] Compile of ElevatorLevel successful, but with 4 Warning(s) [in 41 ms]
+[2015.10.23-00.48.56:507][387]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3828.84] Compile of ElevatorLevel successful, but with 5 Warning(s) [in 12 ms]
+[2015.10.23-00.48.56:507][387]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3828.84] Compile of ElevatorLevel successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.23-00.48.56:554][387]LogPlayLevel: PIE:  Blueprint regeneration took 211 ms (1 blueprints)
+[2015.10.23-00.48.56:555][387]PIE: New page: PIE session: ElevatorLevel (Oct 22, 2015, 2:48:56 PM)
+[2015.10.23-00.48.56:555][387]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel
+[2015.10.23-00.48.56:598][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043045s)
+[2015.10.23-00.48.56:599][387]LogAIModule: Creating AISystem for world ElevatorLevel
+[2015.10.23-00.48.56:600][387]LogPlayLevel: PIE: World Init took: (0.001522s)
+[2015.10.23-00.48.56:600][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/ElevatorLevel.ElevatorLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel (0.044812s)
+[2015.10.23-00.48.56:638][387]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.23-00.48.56:647][387]LogInit: FAudioDevice initialized.
+[2015.10.23-00.48.56:693][387]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.23-00.48.56:717][387]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel up for play (max tick rate 0) at 2015.10.22-19.48.56
+[2015.10.23-00.48.56:717][387]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.48.56:718][387]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.48.56:719][387]LogWorld: Bringing up level for play took: 0.021429
+[2015.10.23-00.48.56:726][387]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel 1.312
+[2015.10.23-00.49.00:999][622]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.49.13:483][298]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000A6821A80
+[2015.10.23-00.49.34:074][189]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.23-00.49.34:098][189]LogPlayLevel: [PIE] Compiling ElevatorLevel before PIE...
+[2015.10.23-00.49.34:206][189]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.49.34:213][189]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3866.54] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 74 ms]
+[2015.10.23-00.49.34:213][189]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3866.54] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.23-00.49.34:214][189]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3866.54] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.23-00.49.34:276][189]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3866.61] Compile of ElevatorLevel successful, but with 4 Warning(s) [in 61 ms]
+[2015.10.23-00.49.34:288][189]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3866.62] Compile of ElevatorLevel successful, but with 5 Warning(s) [in 12 ms]
+[2015.10.23-00.49.34:288][189]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3866.62] Compile of ElevatorLevel successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.23-00.49.34:336][189]LogPlayLevel: PIE:  Blueprint regeneration took 262 ms (1 blueprints)
+[2015.10.23-00.49.34:337][189]PIE: New page: PIE session: ElevatorLevel (Oct 22, 2015, 2:49:34 PM)
+[2015.10.23-00.49.34:337][189]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel
+[2015.10.23-00.49.34:391][189]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053617s)
+[2015.10.23-00.49.34:392][189]LogAIModule: Creating AISystem for world ElevatorLevel
+[2015.10.23-00.49.34:393][189]LogPlayLevel: PIE: World Init took: (0.001533s)
+[2015.10.23-00.49.34:393][189]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/ElevatorLevel.ElevatorLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel (0.055473s)
+[2015.10.23-00.49.34:433][189]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.23-00.49.34:443][189]LogInit: FAudioDevice initialized.
+[2015.10.23-00.49.34:491][189]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.23-00.49.34:512][189]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel up for play (max tick rate 0) at 2015.10.22-19.49.34
+[2015.10.23-00.49.34:512][189]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.49.34:513][189]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.49.34:515][189]LogWorld: Bringing up level for play took: 0.018812
+[2015.10.23-00.49.34:521][189]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel 1.105
+[2015.10.23-00.49.39:158][407]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.49.52:243][ 10]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007192C220
+[2015.10.23-00.50.13:331][814]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.50.21:789][161]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.50.34:024][719]BlueprintLog: New page: Compile ElevatorLevel
+[2015.10.23-00.50.34:107][719]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.50.34:249][719]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3926.58] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 224 ms]
+[2015.10.23-00.50.34:249][719]BlueprintEditorCompileResults:Warning: Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.50.34:249][719]BlueprintEditorCompileResults:Warning: Warning [3926.58] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 224 ms]
+[2015.10.23-00.50.35:123][755]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.23-00.50.35:148][755]LogPlayLevel: [PIE] Compiling ElevatorLevel before PIE...
+[2015.10.23-00.50.35:232][755]LogBlueprint:Warning: [compiler ElevatorLevel] Warning 'Item' is already a 'First Person Character', you don't need  Cast To FirstPersonCharacter .
+[2015.10.23-00.50.35:239][755]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3927.57] Compile of ElevatorLevel successful, but with 1 Warning(s) [in 64 ms]
+[2015.10.23-00.50.35:240][755]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3927.57] Compile of ElevatorLevel successful, but with 2 Warning(s) [in 0 ms]
+[2015.10.23-00.50.35:240][755]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3927.57] Compile of ElevatorLevel successful, but with 3 Warning(s) [in 0 ms]
+[2015.10.23-00.50.35:298][755]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3927.62] Compile of ElevatorLevel successful, but with 4 Warning(s) [in 57 ms]
+[2015.10.23-00.50.35:315][755]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3927.64] Compile of ElevatorLevel successful, but with 5 Warning(s) [in 16 ms]
+[2015.10.23-00.50.35:315][755]LogBlueprint:Warning: [compiler ElevatorLevel] Warning [3927.64] Compile of ElevatorLevel successful, but with 6 Warning(s) [in 0 ms]
+[2015.10.23-00.50.35:367][755]LogPlayLevel: PIE:  Blueprint regeneration took 243 ms (1 blueprints)
+[2015.10.23-00.50.35:367][755]PIE: New page: PIE session: ElevatorLevel (Oct 22, 2015, 2:50:35 PM)
+[2015.10.23-00.50.35:368][755]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel
+[2015.10.23-00.50.35:411][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043433s)
+[2015.10.23-00.50.35:412][755]LogAIModule: Creating AISystem for world ElevatorLevel
+[2015.10.23-00.50.35:412][755]LogPlayLevel: PIE: World Init took: (0.001396s)
+[2015.10.23-00.50.35:413][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/ElevatorLevel.ElevatorLevel to /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel (0.045066s)
+[2015.10.23-00.50.35:459][755]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.23-00.50.35:471][755]LogInit: FAudioDevice initialized.
+[2015.10.23-00.50.35:517][755]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.10.23-00.50.35:539][755]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel up for play (max tick rate 0) at 2015.10.22-19.50.35
+[2015.10.23-00.50.35:539][755]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.50.35:540][755]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel.ElevatorLevel:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.23-00.50.35:542][755]LogWorld: Bringing up level for play took: 0.019571
+[2015.10.23-00.50.35:549][755]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_ElevatorLevel 0.128
+[2015.10.23-00.50.40:343][996]LogBlueprintUserMessages: You've called the elevator!
+[2015.10.23-00.50.45:940][270]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000B1023240
+[2015.10.23-00.51.19:258][512]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.51.41:173][640]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.51.41:748][670]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.52.05:179][824]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.52.05:803][841]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.52.34:534][297]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.53.23:572][725]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.53.24:295][768]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.53.27:474][958]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.53.29:635][ 70]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.53.31:265][163]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.53.35:987][371]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.53.37:129][371]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.53.37:138][371]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.53.41:876][637]LogD3D11RHI: InitD3DDevice
+[2015.10.23-00.53.41:889][637]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.10.23-00.53.41:893][637]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.10.23-00.53.41:895][637]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.10.23-00.53.41:897][637]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.10.23-00.53.41:898][637]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.10.23-00.53.41:900][637]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.10.23-00.53.41:902][637]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.10.23-00.53.41:905][637]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.10.23-00.53.41:907][637]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.10.23-00.53.41:908][637]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.10.23-00.53.41:910][637]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.10.23-00.53.41:911][637]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.10.23-00.53.41:914][637]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.10.23-00.53.41:916][637]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.10.23-00.53.41:925][637]LogSavePackage: Save=56.100937ms
+[2015.10.23-00.53.41:925][637]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2015.10.23-00.53.41:926][637]LogSavePackage: Moving '../../../../../../Users/win7/Documents/Unreal Projects/ElevatorProject/Saved/ActorMacros3BAA36CF44DE2573A21F8DB2E20E1529.tmp' to '../../../Engine/Content/EditorBlueprintResources/ActorMacros.uasset'
+[2015.10.23-00.53.41:926][637]LogFileManager:Warning: DeleteFile was unable to delete '../../../Engine/Content/EditorBlueprintResources/ActorMacros.uasset', retrying in .5s...
+[2015.10.23-00.53.42:426][637]LogFileManager:Error: Error deleting file '../../../Engine/Content/EditorBlueprintResources/ActorMacros.uasset'.
+[2015.10.23-00.53.42:426][637]LogSavePackage:Error: Error saving '../../../Engine/Content/EditorBlueprintResources/ActorMacros.uasset'
+[2015.10.23-00.53.42:426][637]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.10.23-00.53.42:622][637]LogCrashTracker: 
+
+
+[2015.10.23-00.54.26:888][637]LogCrashTracker: 
+
+
+[2015.10.23-00.54.26:888][637]LogWindows: === Critical error: ===
+Fatal error!
+
+KERNELBASE.dll {0x000007fefd56b3dd} + 0 bytes
+UE4Editor-Core.dll!FOutputDeviceWindowsError::Serialize() {0x000007fedc457c0f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FOutputDevice::Logf__VA() {0x000007fedc3111d9} + 185 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!UPackage::SavePackage() {0x000007fedbe836a8} + 215 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!UEditorEngine::SavePackage() {0x000007fed66008b2} + 115 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Kismet.dll!FCacheAllBlueprintsTickableObject::Tick() {0x000007fed3865ffa} + 97 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::ExecuteActiveTimers() {0x000007fedde8dbfa} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebcdb0} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() {0x000007feddebc210} + 126 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SBorder::OnPaint() {0x000007fed8842398} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SOverlay::OnPaint() {0x000007feddebc491} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() {0x000007feddebd18d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SPanel::OnPaint() {0x000007feddebc5e8} + 52 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() {0x000007feddebc210} + 126 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() {0x000007feddebd18d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SSplitter::OnPaint() {0x000007fed88458d0} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() {0x000007feddebc210} + 126 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() {0x000007feddebd18d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SSplitter::OnPaint() {0x000007fed88458d0} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() {0x000007feddebc210} + 126 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() {0x000007feddebd18d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SSplitter::OnPaint() {0x000007fed88458d0} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SOverlay::OnPaint() {0x000007feddebc491} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() {0x000007feddebc210} + 126 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() {0x000007feddebd18d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SPanel::OnPaint() {0x000007feddebc5e8} + 52 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() {0x000007feddebc210} + 126 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() {0x000007feddebc210} + 126 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SBorder::OnPaint() {0x000007fed8842398} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SOverlay::OnPaint() {0x000007feddebc491} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() {0x000007feddebd18d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SPanel::OnPaint() {0x000007feddebc5e8} + 52 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() {0x000007feddebc210} + 126 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() {0x000007feddebd18d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SSplitter::OnPaint() {0x000007fed88458d0} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SOverlay::OnPaint() {0x000007feddebc491} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() {0x000007feddebc210} + 126 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() {0x000007feddebd18d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SPanel::OnPaint() {0x000007feddebc5e8} + 52 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SPanel::PaintArrangedChildren() {0x000007feddebd18d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SPanel::OnPaint() {0x000007feddebc5e8} + 52 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SOverlay::OnPaint() {0x000007feddebc491} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SCompoundWidget::OnPaint() {0x000007feddebc210} + 126 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWidget::Paint() {0x000007feddebce1a} + 58 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-SlateCore.dll!SWindow::PaintWindow() {0x000007feddebd326} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::DrawWindowAndChildren() {0x000007fed866e0df} + 237 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::DrawWindowAndChildren() {0x000007fed866ec3a} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::PrivateDrawWindows() {0x000007fed86b5e40} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::DrawWindows() {0x000007fed866ed40} + 13 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::Tick() {0x000007fed86d727f} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x000000013fa54bf6} + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x000000013fa449cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x000000013fa44a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x000000013fa565c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x000000013fa575d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+kernel32.dll {0x0000000077535a4d} + 0 bytes
+ntdll.dll {0x000000007776b831} + 0 bytes
+ntdll.dll {0x000000007776b831} + 0 bytes
+

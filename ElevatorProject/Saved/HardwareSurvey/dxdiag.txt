@@ -1,0 +1,378 @@
+------------------
+System Information
+------------------
+Time of this report: 10/22/2015, 18:46:11
+       Machine name: SC10111
+   Operating System: Windows 7 Enterprise 64-bit (6.1, Build 7601) Service Pack 1 (7601.win7sp1_gdr.150715-0600)
+           Language: English (Regional Setting: English)
+System Manufacturer: Hewlett-Packard
+       System Model: HP Z420 Workstation
+               BIOS: Default System BIOS
+          Processor: Intel(R) Xeon(R) CPU E5-1603 0 @ 2.80GHz (4 CPUs), ~2.8GHz
+             Memory: 8192MB RAM
+Available OS Memory: 8116MB RAM
+          Page File: 6923MB used, 9305MB available
+        Windows Dir: C:\Windows
+    DirectX Version: DirectX 11
+DX Setup Parameters: Not found
+   User DPI Setting: Using System DPI
+ System DPI Setting: 96 DPI (100 percent)
+    DWM DPI Scaling: Disabled
+     DxDiag Version: 6.01.7601.17514 32bit Unicode
+  DxDiag Previously: Crashed in Direct3D (stage 2) & DirectShow (stage 1). Re-running DxDiag with "dontskip" command line parameter or choosing not to bypass information gathering when prompted might result in DxDiag successfully obtaining this information
+
+------------
+DxDiag Notes
+------------
+      Display Tab 1: No problems found.
+      Display Tab 2: No problems found.
+        Sound Tab 1: No problems found.
+          Input Tab: No problems found.
+
+--------------------
+DirectX Debug Levels
+--------------------
+Direct3D:    0/4 (retail)
+DirectDraw:  0/4 (retail)
+DirectInput: 0/5 (retail)
+DirectMusic: 0/5 (retail)
+DirectPlay:  0/9 (retail)
+DirectSound: 0/5 (retail)
+DirectShow:  0/6 (retail)
+
+---------------
+Display Devices
+---------------
+          Card name: NVIDIA GeForce GTX 960
+       Manufacturer: 
+          Chip type: 
+           DAC type: 
+         Device Key: Enum\PCI\VEN_10DE&DEV_1401&SUBSYS_29623842&REV_A1
+     Display Memory: 
+   Dedicated Memory: n/a
+      Shared Memory: n/a
+       Current Mode: 1920 x 1080 (32 bit) (60Hz)
+       Monitor Name: HP Compaq LA2206 Wide LCD Monitor
+      Monitor Model: 
+         Monitor Id: 
+        Native Mode: 
+        Output Type: 
+        Driver Name: 
+Driver File Version:  ()
+     Driver Version: 
+        DDI Version: 
+       Driver Model: WDDM 1.1
+  Driver Attributes: Final Retail
+   Driver Date/Size: , 0 bytes
+        WHQL Logo'd: n/a
+    WHQL Date Stamp: n/a
+  Device Identifier: 
+          Vendor ID: 
+          Device ID: 
+          SubSys ID: 
+        Revision ID: 
+ Driver Strong Name: oem24.inf:NVIDIA_SetA_Devices.NTamd64.6.1:Section146:10.18.13.5382:pci\ven_10de&dev_1401
+     Rank Of Driver: 00E02001
+        Video Accel: 
+      Deinterlace Caps: n/a
+       D3D9 Overlay: 
+            DXVA-HD: 
+       DDraw Status: Disabled
+         D3D Status: Not Available
+         AGP Status: Not Available
+
+          Card name: NVIDIA GeForce GTX 960
+       Manufacturer: 
+          Chip type: 
+           DAC type: 
+         Device Key: Enum\PCI\VEN_10DE&DEV_1401&SUBSYS_29623842&REV_A1
+     Display Memory: 
+   Dedicated Memory: n/a
+      Shared Memory: n/a
+       Current Mode: 1920 x 1080 (32 bit) (60Hz)
+       Monitor Name: HP Compaq LA2206 Wide LCD Monitor
+      Monitor Model: 
+         Monitor Id: 
+        Native Mode: 
+        Output Type: 
+        Driver Name: 
+Driver File Version:  ()
+     Driver Version: 
+        DDI Version: 
+       Driver Model: WDDM 1.1
+  Driver Attributes: Final Retail
+   Driver Date/Size: , 0 bytes
+        WHQL Logo'd: n/a
+    WHQL Date Stamp: n/a
+  Device Identifier: 
+          Vendor ID: 
+          Device ID: 
+          SubSys ID: 
+        Revision ID: 
+ Driver Strong Name: oem24.inf:NVIDIA_SetA_Devices.NTamd64.6.1:Section146:10.18.13.5382:pci\ven_10de&dev_1401
+     Rank Of Driver: 00E02001
+        Video Accel: 
+      Deinterlace Caps: n/a
+       D3D9 Overlay: 
+            DXVA-HD: 
+       DDraw Status: Disabled
+         D3D Status: Not Available
+         AGP Status: Not Available
+
+-------------
+Sound Devices
+-------------
+            Description: Speakers (Realtek High Definition Audio)
+ Default Sound Playback: Yes
+ Default Voice Playback: Yes
+            Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0262&SUBSYS_103C1589&REV_1002
+        Manufacturer ID: 1
+             Product ID: 100
+                   Type: WDM
+            Driver Name: RTKVHD64.sys
+         Driver Version: 6.00.0001.7548 (English)
+      Driver Attributes: Final Retail
+            WHQL Logo'd: Yes
+          Date and Size: 7/3/2015 21:21:48, 4515584 bytes
+            Other Files: 
+        Driver Provider: Realtek Semiconductor Corp.
+         HW Accel Level: Basic
+              Cap Flags: 0xF1F
+    Min/Max Sample Rate: 100, 200000
+Static/Strm HW Mix Bufs: 1, 0
+ Static/Strm HW 3D Bufs: 0, 0
+              HW Memory: 0
+       Voice Management: No
+ EAX(tm) 2.0 Listen/Src: No, No
+   I3DL2(tm) Listen/Src: No, No
+Sensaura(tm) ZoomFX(tm): No
+
+---------------------
+Sound Capture Devices
+---------------------
+-------------------
+DirectInput Devices
+-------------------
+      Device Name: Mouse
+         Attached: 1
+    Controller ID: n/a
+Vendor/Product ID: n/a
+        FF Driver: n/a
+
+      Device Name: Keyboard
+         Attached: 1
+    Controller ID: n/a
+Vendor/Product ID: n/a
+        FF Driver: n/a
+
+Poll w/ Interrupt: No
+
+-----------
+USB Devices
+-----------
++ USB Root Hub
+| Vendor/Product ID: 0x8086, 0x1D26
+| Matching Device ID: usb\root_hub20
+| Service: usbhub
+| 
++-+ Generic USB Hub
+| | Vendor/Product ID: 0x8087, 0x0024
+| | Location: Port_#0001.Hub_#0002
+| | Matching Device ID: usb\class_09
+| | Service: usbhub
+| | 
+| +-+ USB Input Device
+| | | Vendor/Product ID: 0x03F0, 0x0024
+| | | Location: Port_#0001.Hub_#0004
+| | | Matching Device ID: generic_hid_device
+| | | Service: HidUsb
+| | | 
+| | +-+ HID Keyboard Device
+| | | | Vendor/Product ID: 0x03F0, 0x0024
+| | | | Matching Device ID: hid_device_system_keyboard
+| | | | Service: kbdhid
+| | | 
+| +-+ USB Input Device
+| | | Vendor/Product ID: 0x046D, 0xC077
+| | | Location: Port_#0002.Hub_#0004
+| | | Matching Device ID: generic_hid_device
+| | | Service: HidUsb
+| | | 
+| | +-+ HID-compliant mouse
+| | | | Vendor/Product ID: 0x046D, 0xC077
+| | | | Matching Device ID: hid_device_system_mouse
+| | | | Service: mouhid
+
+----------------
+Gameport Devices
+----------------
+
+------------
+PS/2 Devices
+------------
++ Terminal Server Keyboard Driver
+| Matching Device ID: root\rdp_kbd
+| Upper Filters: kbdclass
+| Service: TermDD
+| 
++ Terminal Server Mouse Driver
+| Matching Device ID: root\rdp_mou
+| Upper Filters: mouclass
+| Service: TermDD
+
+------------------------
+Disk & DVD/CD-ROM Drives
+------------------------
+      Drive: C:
+ Free Space: 744.4 GB
+Total Space: 953.9 GB
+File System: NTFS
+      Model: ST1000DX001-1NS162 ATA Device
+
+      Drive: D:
+      Model: hp CDDVDW SH-216BB ATA Device
+     Driver: c:\windows\system32\drivers\cdrom.sys, 6.01.7601.17514 (English), , 0 bytes
+
+--------------
+System Devices
+--------------
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 DMI2 - 3C00
+Device ID: PCI\VEN_8086&DEV_3C00&SUBSYS_1589103C&REV_07\3&11583659&1&00
+   Driver: n/a
+
+     Name: Standard Enhanced PCI to USB Host Controller
+Device ID: PCI\VEN_8086&DEV_1D2D&SUBSYS_1589103C&REV_05\3&11583659&1&D0
+   Driver: n/a
+
+     Name: Standard AHCI 1.0 Serial ATA Controller
+Device ID: PCI\VEN_8086&DEV_1D02&SUBSYS_1589103C&REV_05\3&11583659&1&FA
+   Driver: n/a
+
+     Name: Intel(R) 82801 PCI Bridge - 244E
+Device ID: PCI\VEN_8086&DEV_244E&SUBSYS_1589103C&REV_A5\3&11583659&1&F0
+   Driver: n/a
+
+     Name: Standard Enhanced PCI to USB Host Controller
+Device ID: PCI\VEN_8086&DEV_1D26&SUBSYS_1589103C&REV_05\3&11583659&1&E8
+   Driver: n/a
+
+     Name: Intel(R) 82579LM Gigabit Network Connection
+Device ID: PCI\VEN_8086&DEV_1502&SUBSYS_1589103C&REV_05\3&11583659&1&C8
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 I/O APIC - 3C2C
+Device ID: PCI\VEN_8086&DEV_3C2C&SUBSYS_3C2C8086&REV_07\3&11583659&1&2C
+   Driver: n/a
+
+     Name: Intel(R) C600 Series Chipset SAS RAID (SATA mode)
+Device ID: PCI\VEN_8086&DEV_1D6B&SUBSYS_1589103C&REV_05\4&4A683F6&0&0088
+   Driver: n/a
+
+     Name: Intel(R) C600/X79 series chipset SMBus Host Controller - 1D22
+Device ID: PCI\VEN_8086&DEV_1D22&SUBSYS_1589103C&REV_05\3&11583659&1&FB
+   Driver: n/a
+
+     Name: Intel(R) Gigabit CT2 Desktop Adapter
+Device ID: PCI\VEN_8086&DEV_10D3&SUBSYS_00018086&REV_00\4&37634081&0&00E6
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Control Status and Global Errors - 3C2A
+Device ID: PCI\VEN_8086&DEV_3C2A&SUBSYS_1589103C&REV_07\3&11583659&1&2A
+   Driver: n/a
+
+     Name: PCI standard ISA bridge
+Device ID: PCI\VEN_8086&DEV_1D41&SUBSYS_1589103C&REV_05\3&11583659&1&F8
+   Driver: n/a
+
+     Name: High Definition Audio Controller
+Device ID: PCI\VEN_8086&DEV_1D20&SUBSYS_1589103C&REV_05\3&11583659&1&D8
+   Driver: n/a
+
+     Name: LSI 1394 OHCI Compliant Host Controller
+Device ID: PCI\VEN_11C1&DEV_5811&SUBSYS_1589103C&REV_70\4&C4C5400&0&28F0
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 Address Map, VTd_Misc, System Management - 3C28
+Device ID: PCI\VEN_8086&DEV_3C28&SUBSYS_1589103C&REV_07\3&11583659&1&28
+   Driver: n/a
+
+     Name: PCI standard PCI-to-PCI bridge
+Device ID: PCI\VEN_8086&DEV_1D3E&SUBSYS_1589103C&REV_05\3&11583659&1&88
+   Driver: n/a
+
+     Name: PCI standard PCI-to-PCI bridge
+Device ID: PCI\VEN_8086&DEV_1D18&SUBSYS_1589103C&REV_B5\3&11583659&1&E5
+   Driver: n/a
+
+     Name: NVIDIA GeForce GTX 960
+Device ID: PCI\VEN_10DE&DEV_1401&SUBSYS_29623842&REV_A1\4&2606616A&0&0010
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 IIO PCI Express Root Port 3a in PCI Express Mode - 3C08
+Device ID: PCI\VEN_8086&DEV_3C08&SUBSYS_1589103C&REV_07\3&11583659&1&18
+   Driver: n/a
+
+     Name: Intel(R) Active Management Technology - SOL (COM3)
+Device ID: PCI\VEN_8086&DEV_1D3D&SUBSYS_1589103C&REV_05\3&11583659&1&B3
+   Driver: n/a
+
+     Name: PCI standard PCI-to-PCI bridge
+Device ID: PCI\VEN_8086&DEV_1D16&SUBSYS_1589103C&REV_B5\3&11583659&1&E7
+   Driver: n/a
+
+     Name: High Definition Audio Controller
+Device ID: PCI\VEN_10DE&DEV_0FBA&SUBSYS_29623842&REV_A1\4&2606616A&0&0110
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 IIO PCI Express Root Port 2a - 3C04
+Device ID: PCI\VEN_8086&DEV_3C04&SUBSYS_1589103C&REV_07\3&11583659&1&10
+   Driver: n/a
+
+     Name: Standard Dual Channel PCI IDE Controller
+Device ID: PCI\VEN_8086&DEV_1D3C&SUBSYS_1589103C&REV_05\3&11583659&1&B2
+   Driver: n/a
+
+     Name: PCI standard PCI-to-PCI bridge
+Device ID: PCI\VEN_8086&DEV_1D14&SUBSYS_1589103C&REV_B5\3&11583659&1&E6
+   Driver: n/a
+
+     Name: Texas Instruments XHCI Controller
+Device ID: PCI\VEN_104C&DEV_8241&SUBSYS_1589103C&REV_02\4&27CBE021&0&00E7
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) Processor E5 Product Family/Core i7 IIO PCI Express Root Port 1a - 3C02
+Device ID: PCI\VEN_8086&DEV_3C02&SUBSYS_1589103C&REV_07\3&11583659&1&08
+   Driver: n/a
+
+     Name: Intel(R) Management Engine Interface 
+Device ID: PCI\VEN_8086&DEV_1D3A&SUBSYS_1589103C&REV_05\3&11583659&1&B0
+   Driver: n/a
+
+     Name: PCI standard PCI-to-PCI bridge
+Device ID: PCI\VEN_8086&DEV_1D12&SUBSYS_1589103C&REV_B5\3&11583659&1&E0
+   Driver: n/a
+
+---------------
+EVR Power Information
+---------------
+Current Setting: {5C67A112-A4C9-483F-B4A7-1D473BECAFDC} (Quality) 
+  Quality Flags: 2576
+    Enabled:
+    Force throttling
+    Allow half deinterlace
+    Allow scaling
+    Decode Power Usage: 100
+  Balanced Flags: 1424
+    Enabled:
+    Force throttling
+    Allow batching
+    Force half deinterlace
+    Force scaling
+    Decode Power Usage: 50
+  PowerFlags: 1424
+    Enabled:
+    Force throttling
+    Allow batching
+    Force half deinterlace
+    Force scaling
+    Decode Power Usage: 0
